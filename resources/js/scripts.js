@@ -37,3 +37,12 @@ data.forEach(function (data, index) {
   button.innerHTML = "Add to Cart";
   newDiv.appendChild(button);
 });
+
+const cart = [];
+
+function addItem(name, price) {
+  const item = { name: name, price: price, qty: 1 };
+  cart.push(item);
+}
+
+function showItems() {}
