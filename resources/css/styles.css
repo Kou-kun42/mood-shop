@@ -3,6 +3,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
+  background-color: #a0c1b8;
 }
 
 header h4 {
@@ -42,9 +43,10 @@ header h4 {
   width: 300px;
   margin-top: 30px;
   position: relative;
+  background-color: #f4ebc1;
 }
 
-button {
+.items button {
   background-color: #a0c1b8;
   font-family: AppleSDGothicNeo-Bold;
   margin: 0;
@@ -54,4 +56,23 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 0;
+}
+
+footer {
+  background-color: #709fb0;
+}
+
+footer ul {
+  list-style: none;
+  font-size: large;
+}
+
+footer button {
+  background-color: #a0c1b8;
+  font-family: AppleSDGothicNeo-Bold;
+  border: 0;
+}
+
+#cart-total {
+  font-size: larger;
 }
